@@ -144,7 +144,7 @@ your project.
 
 However, these are separate tools, that do not
 belong to C/C++ compilers, like `gcc` or `clang`.
-As a result, in C/C++ projects, you have not only to install and
+As a result, in C/C++ projects, you have to not only install and
 manage your C/C++ compilers, but you also have to install and manage
 these build systems separately.
 
@@ -152,7 +152,7 @@ In Zig, we don't need to use a separate set of tools to build our projects,
 because a build system is embedded inside the language itself.
 Therefore, Zig contains a native build system in it, and
 we can use this build system to write small scripts in Zig,
-which describes the necessary steps to build/compile our Zig project[^zig-build-system].
+which describe the necessary steps to build/compile our Zig project[^zig-build-system].
 So, everything you need to build a complex Zig project is the
 `zig` compiler, and nothing more.
 
