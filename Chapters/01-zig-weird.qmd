@@ -139,7 +139,7 @@ of compiling and building complex projects, easier.
 Examples of build systems are CMake, GNU Make, GNU Autoconf and Ninja,
 which are used to build complex C and C++ projects.
 With these systems, you can write scripts, which are called "build scripts".
-They simply are scripts that describes the necessary steps to compile/build
+They are simply scripts that describe the necessary steps to compile/build
 your project.
 
 However, these are separate tools, that do not
